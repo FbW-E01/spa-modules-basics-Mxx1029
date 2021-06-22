@@ -7,9 +7,11 @@ function hoverHeader () {
 
     modal.addEventListener("click", (e) => {
         switch(e.target.className) {
-            case "close":
+            case "close": 
+            // modal.style.display = "none";
+            // break;
             case "modal":
-            modal.style.display = "none"
+            modal.style.display = "none";
             break;
         }
     })
